@@ -81,4 +81,4 @@ model = AutoModelForCausalLM.from_pretrained(
 
 # TODO
 
-I’m currently on vacation and traveling. I’ll organize the data and models as soon as possible, and release them once the review has been approved ...
+We will also release an additional 5,000 instances equipped with Docker-based environments in the near future.
