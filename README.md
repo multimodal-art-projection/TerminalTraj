@@ -48,7 +48,7 @@ As shown in the figure above, **TerminalTraj-32B** achieves state-of-the-art per
 In addition, we find that **TerminalTraj**, with its large-scale agentic data grounded in real-world environments, can substantially enhance a model’s **test-time scaling** capability.
 
 
-# Dataset
+## Dataset
 
 We have released our training dataset (trajectory):
 
@@ -58,7 +58,7 @@ from datasets import load_dataset
 ds = load_dataset("m-a-p/TerminalTraj")
 ```
 
-# Models
+## Models
 
 We have released our TerminalTraj-7B/14B/32B models:
 
@@ -79,6 +79,22 @@ model = AutoModelForCausalLM.from_pretrained(
 
 
 
-# TODO
+## TODO
 
 We will also release an additional 5,000 instances equipped with Docker-based environments in the near future.
+
+## Citation
+
+**BibTeX:**
+
+```bibtex
+@misc{wu2026largescaleterminalagentictrajectory,
+      title={Large-Scale Terminal Agentic Trajectory Generation from Dockerized Environments}, 
+      author={Siwei Wu and Yizhi Li and Yuyang Song and Wei Zhang and Yang Wang and Riza Batista-Navarro and Xian Yang and Mingjie Tang and Bryan Dai and Jian Yang and Chenghua Lin},
+      year={2026},
+      eprint={2602.01244},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2602.01244}, 
+}
+```
