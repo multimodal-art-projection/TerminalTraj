@@ -3,12 +3,17 @@
 <div align="center">
 🤗 <a href="https://huggingface.co/m-a-p/TerminalTraj-32B"><b>Model</b></a>&nbsp&nbsp | &nbsp&nbsp
 🤗 <a href="https://huggingface.co/datasets/m-a-p/TerminalTraj"><b>Data</b></a>&nbsp&nbsp | &nbsp&nbsp
-🤗 <a href="https://huggingface.co/datasets/m-a-p/TerminalTraj-5k-instances/tree/main"><b>Instance-5k(with docker)</b></a>&nbsp&nbsp | &nbsp&nbsp
+🤗 <a href="https://huggingface.co/datasets/m-a-p/TerminalTraj-5k-instances/tree/main"><b>Instance-5k&nbsp&nbsp(with docker)</b></a>&nbsp&nbsp | &nbsp&nbsp
 🤗 <a href="https://huggingface.co/papers/2602.01244"><b>HF&nbsp&nbspPaper</b></a>&nbsp&nbsp | &nbsp&nbsp
 📑 <a href="https://arxiv.org/abs/2602.01244"><b>arXiv</b></a>&nbsp&nbsp
 </div>
 
 This is the repo for the paper **TerminalTraj: Large-Scale Terminal Agentic Trajectory Generation from Dockerized Environments**
+
+## News
+- **[2026.03.13]** We have released **5,660** instances equipped with Docker-based environments! Check them out on [HuggingFace](https://huggingface.co/datasets/m-a-p/TerminalTraj-5k-instances/tree/main).
+
+## Brief
 
 ## Brief
 Training agentic models for terminal-based tasks critically depends on high-quality terminal trajectories that capture realistic long-horizon interactions across diverse domains. However, constructing such data at scale remains challenging due to two key requirements: **_Executability_**, since each instance requires a suitable and often distinct Docker environment; and **_Verifiability_**, because heterogeneous task outputs preclude unified, standardized verification.
