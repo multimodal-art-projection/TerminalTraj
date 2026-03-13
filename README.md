@@ -11,7 +11,7 @@
 This is the repo for the paper **TerminalTraj: Large-Scale Terminal Agentic Trajectory Generation from Dockerized Environments**
 
 ## News
-- **[2026.03.13]** We have released **5,660** instances equipped with Docker-based environments! Check them out on [HuggingFace](https://huggingface.co/datasets/m-a-p/TerminalTraj-5k-instances/tree/main).
+- **[2026.03.13]** We have released **5,660** instances equipped with Docker-based environments! Check them out on [TerminalTraj-5k-instances](https://huggingface.co/datasets/m-a-p/TerminalTraj-5k-instances/tree/main).
 
 ## Brief
 
