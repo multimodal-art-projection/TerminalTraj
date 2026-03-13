@@ -3,10 +3,10 @@
 <div align="center">
 🤗 <a href="https://huggingface.co/m-a-p/TerminalTraj-32B"><b>Model</b></a>&nbsp&nbsp | &nbsp&nbsp
 🤗 <a href="https://huggingface.co/datasets/m-a-p/TerminalTraj"><b>Data</b></a>&nbsp&nbsp | &nbsp&nbsp
+🤗 <a href="https://huggingface.co/datasets/m-a-p/TerminalTraj-5k-instances/tree/main"><b>Instance-5k(with docker)</b></a>&nbsp&nbsp | &nbsp&nbsp
 🤗 <a href="https://huggingface.co/papers/2602.01244"><b>HF&nbsp&nbspPaper</b></a>&nbsp&nbsp | &nbsp&nbsp
 📑 <a href="https://arxiv.org/abs/2602.01244"><b>arXiv</b></a>&nbsp&nbsp
 </div>
-
 
 This is the repo for the paper **TerminalTraj: Large-Scale Terminal Agentic Trajectory Generation from Dockerized Environments**
 
