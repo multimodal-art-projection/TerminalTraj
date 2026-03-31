@@ -14,13 +14,20 @@ This is the repo for the paper **TerminalTraj: Large-Scale Terminal Agentic Traj
 - **[2026.03.13]** We have released **5,660** instances equipped with Docker-based environments! Check them out on [TerminalTraj-5k-instances](https://huggingface.co/datasets/m-a-p/TerminalTraj-5k-instances/tree/main).
 
 ## Brief
-
-## Brief
 Training agentic models for terminal-based tasks critically depends on high-quality terminal trajectories that capture realistic long-horizon interactions across diverse domains. However, constructing such data at scale remains challenging due to two key requirements: **_Executability_**, since each instance requires a suitable and often distinct Docker environment; and **_Verifiability_**, because heterogeneous task outputs preclude unified, standardized verification.
 
 To address these challenges, we propose **TerminalTraj**, a scalable pipeline that (i) filters high-quality repositories to construct Dockerized execution environments, (ii) generates Docker-aligned task instances, and (iii) synthesizes agent trajectories with executable validation code. Using TerminalTraj, we curate 32K Docker images and generate **50,733** verified terminal trajectories across eight domains.
 
 Models trained on this data with the Qwen2.5-Coder backbone achieve consistent performance improvements on TerminalBench (TB), with gains of up to **20%** on TB 1.0 and **10%** on TB 2.0 over their respective backbones. Notably, **TerminalTraj-32B** achieves strong performance among models with fewer than 100B parameters, reaching **35.30%** on TB 1.0 and **22.00%** on TB 2.0, and demonstrates improved test-time scaling behavior.
+
+## Repository and License Metadata
+
+For transparency and compliance, we provide a `./source/repo&license.jsonl` file that records the source repositories associated with the currently released subset of our data, together with their corresponding license information.
+
+The licenses of the repositories used in this release are restricted to the following categories: MIT, Apache-2.0, BSD-3-Clause, and BSD-2-Clause.
+
+Third-party repositories and their contents remain subject to their original licenses. Users of this release are responsible for complying with the license terms of the corresponding upstream repositories.
+
 
 ## Method
 
