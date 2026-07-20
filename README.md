@@ -92,10 +92,6 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 ```
 
-## TODO
-
-We will also release an additional 5,000 instances equipped with Docker-based environments in the near future.
-
 ## Citation
 
 **BibTeX:**
