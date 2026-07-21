@@ -97,13 +97,13 @@ model = AutoModelForCausalLM.from_pretrained(
 **BibTeX:**
 
 ```bibtex
-@misc{wu2026terminaltraj,
+@misc{wu2026largescaleterminalagentictrajectory,
       title={Large-Scale Terminal Agentic Trajectory Generation from Dockerized Environments}, 
       author={Siwei Wu and Yizhi Li and Yuyang Song and Wei Zhang and Yang Wang and Riza Batista-Navarro and Xian Yang and Mingjie Tang and Bryan Dai and Jian Yang and Chenghua Lin},
       year={2026},
       eprint={2602.01244},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2602.01244},
+      url={https://arxiv.org/abs/2602.01244}, 
 }
 ```
